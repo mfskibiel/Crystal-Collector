@@ -27,14 +27,16 @@ body {
     height: 10%;
     width: 20%;
     float: left;
+    padding: 5px;
 }
 .tracker {
     height: 10%;
     width: 15%;
-    color: black; 
+    color:white; 
     background: teal;
     margin: 10px;
     float: left;
+    padding: 5px;
 }
 .buttons {
     width: 70px;
@@ -44,4 +46,27 @@ body {
 .crystals {
     clear: both;
     margin: 10px;
+}
+
+#scoretitle {
+    width: 20%;
+    height: 5%;
+    background: teal;
+    color: white;
+    margin: 10px;
+    padding: 5px;
+}
+
+#yourscore {
+    width: 20%;
+    height: 15%;
+    background: teal;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    padding: 5px;
+}
+
+p {
+    margin: 15px;
 }

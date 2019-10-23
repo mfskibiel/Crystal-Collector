@@ -18,26 +18,20 @@
         <p>You will be given a random number at the start of the game.</p>
         <p>There are 4 crystals below. By clicking on a crystal you will add a specific amount of points to your total
             score.</p>
-        <p>you win the game Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus saepe omnis numquam
-            optio fuga nemo ut suscipit commodi vel soluta minus beatae tenetur ducimus nostrum voluptas blanditiis,
-            mollitia quae est.</p>
-        <p>the value of each crystal Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium corporis
-            similique quos amet eum voluptatem consequatur omnis molestias consectetur quaerat iste numquam accusamus
-            laborum, tenetur porro cumque nihil eaque temporibus.</p>
-        <p>each time Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi debitis inventore culpa veniam
-            assumenda suscipit vero pariatur saepe, dicta ducimus quo quae soluta molestiae eius minima veritatis
-            quibusdam earum voluptatum!</p>
+        <p>you win the game by matching your total score to random number, you lose the game if your total score goes
+            above the random number</p>
+        <p>the value of each crystal is hidden from you until you click on it.</p>
+        <p>each time when the game starts, the game will change the values of each crystal </p>
     </div>
 
     <div class="randnumbox">
-        <p class="randnum">Target Score:</p>
+        <h1 class="randnum" id="targetscore">Target Score:</h1>
     </div>
     <div class="tracker">
-        <span id="wins"></span>
-        <span id="losses"></span>
+        <p id="wins">wins: </p>
+        <p id="losses">losses: </p>
 
     </div>
-
 
     <div class="crystals">
         <button><img class="buttons" src="assets/images/blue.jpg" alt="blue gem" id="blue"></button>
@@ -45,7 +39,8 @@
         <button><img class="buttons" src="assets/images/purple.png" alt="purple gem" id="purple"></button>
         <button><img class="buttons" src="assets/images/green.jpeg" alt="green gem" id="green"></button>
     </div>
-    <p>Your total score is: </p>
+    <h1 id="scoretitle">Your total score is:</h1>
+    <h1 id="yourscore"></h1>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
